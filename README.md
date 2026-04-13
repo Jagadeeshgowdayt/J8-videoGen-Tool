@@ -1,5 +1,5 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhoYJkYsQHIRpedNnu_W-FI0NNq6_Xip9og&s" />
+<div align="center"><img width="937" height="636" alt="image" src="https://github.com/user-attachments/assets/edef6ec4-c359-4c59-9622-6b2d35bea992" />
+
 </div>
 
 
