@@ -10,3 +10,7 @@
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+
+
+<img width="950" height="701" alt="image" src="https://github.com/user-attachments/assets/53e159b4-77ed-456f-988b-59d5a7b19d81" />
