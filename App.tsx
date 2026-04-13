@@ -5,6 +5,7 @@ import { generateStoryScript, generateNarration, generateCinematicImage } from '
 import { VideoPlayer } from './components/VideoPlayer';
 import { Sparkles, AlertCircle, Film, ArrowRight, Wand2, Clock, Activity, X, Calculator, Zap, Code, Terminal, Layers, Cpu, FileJson, Copy, Check, Globe } from 'lucide-react';
 
+
 const App: React.FC = () => {
   const [appState, setAppState] = useState<AppState>(AppState.IDLE);
   const [topic, setTopic] = useState('');
