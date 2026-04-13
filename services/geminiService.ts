@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 import { ScriptResponse, Scene } from "../types";
 
+
 // Helper to get client with current key
 const getClient = () => {
   // Always create a new instance to ensure we capture the latest key from aistudio
