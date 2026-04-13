@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { Scene, AppState } from '../types';
 import { Play, Pause, Download, RefreshCw, Loader2 } from 'lucide-react';
 
+
 interface VideoPlayerProps {
   scenes: Scene[];
   appState: AppState;
