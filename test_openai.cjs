@@ -5,6 +5,10 @@ const data = JSON.stringify({
   n: 1,
   size: "1024x1024"
 });
+const pollinationsApiKey = process.env.POLLINATIONS_API_KEY;
+if (!pollinationsApiKey) {
+  throw new Error('Missing POLLINATIONS_API_KEY environment variable');
+}
 const options = {
   hostname: 'gen.pollinations.ai',
   port: 443,
@@ -12,7 +16,7 @@ const options = {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer pk_2MdDl2jPQWm6RxIj',
+    'Authorization': `Bearer ${pollinationsApiKey}`,
     'Content-Length': data.length
   }
 };
@@ -24,4 +28,3 @@ const req = https.request(options, res => {
 req.on('error', error => console.error(error));
 req.write(data);
 req.end();
-
